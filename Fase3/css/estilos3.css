@@ -28,7 +28,6 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-     
 }
 .menu>li{
     float: left;
