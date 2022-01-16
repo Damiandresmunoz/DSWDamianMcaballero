@@ -1,0 +1,65 @@
+header{
+    background-color: #A26EA1;
+}
+nav{
+    background-color: #F18A9B;
+    }
+section{
+background-color: #FFB480;
+grid-column: 1/4;
+    }
+aside{
+    background-color: #ee8a50;
+grid-column: 4/5;
+}    
+footer{
+    background-color: #c1ff9d71;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+     
+}
+.menu>li{
+    float: left;
+}
+.menu li a{
+    background-color: gray;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: block;
+}
+.menu li a:hover{
+
+    background-color: chocolate;
+
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}    
+.menu li:hover > ul{
+    display: block;
+    
+}
+.menu li ul li{
+    position:relative;
+}    
+.menu li ul li ul{
+    right:140px
+}    
+
